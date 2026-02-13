@@ -1,0 +1,78 @@
+    #habitlist{
+    padding: 0;
+    text-align: left;
+}
+
+#habitList li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.85rem;
+    color: #444;
+}body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 { color: #2e7d32; margin-bottom: 20px; }
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label { font-size: 0.9rem; font-weight: bold; color: #555; }
+
+input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box; /* Crucial for alignment */
+}
+
+textarea { resize: none; font-family: inherit; }
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover { background-color: #1b5e20; }
+
+meter {
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.log-container {
+    margin-top: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#habitList {
+    list-style: none;
+}
