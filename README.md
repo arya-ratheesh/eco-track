@@ -13,7 +13,7 @@
 - Member 2: [Amisha.s] - [LBS institute of technology for women]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://eco-track-snowy-ten.vercel.app]
 
 ### Project Description
 [Eco-Track is a web-based activity logger designed to help individuals monitor and reduce their daily environmental footprint. By logging sustainable habits—such as using reusable—users receive real-time feedback through an impact meter that gamifies the journey toward a greener lifestyle]
