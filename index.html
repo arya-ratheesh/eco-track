@@ -7,26 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="container">
+        <div id="statusHeader" style="display: flex; justify-content: space-between; margin-bottom: 20px; background: #e8f5e9; padding: 10px; border-radius: 8px;">
+    <div id="streakDisplay" style="font-weight: bold;">🔥 Streak: <span id="streakCount">0</span> days</div>
+    <div id="challengeDisplay" style="font-weight: bold; color: #2d6a4f;">
+        Daily Challenge: <span id="currentChallenge">Loading...</span>
+    </div>
+</div>
         <h1>Eco-Track 🌿</h1>
-
         <div class="input-group">
             <label for="habitDesc">What did you do for the planet today?</label>
-            <textarea id="habitDesc" placeholder="e.g., I used a reusable bag today..." rows="2"></textarea>
+            <textarea id="habitDesc" placeholder="e.g., I used a reusable bag today..." rows="4"></textarea>
         </div>
-
-        
 
         <button onclick="calculateScore()">Calculate My Score</button>
 
         <div class="meter-container">
             <label>Your Impact Level:</label>
+            <p id="levelDisplay" style="font-weight: bold; margin-top: 10px;">Status: Eco-Beginner 🌱</p>
             <meter id="greenMeter" min="0" low="30" high="70" optimum="100" max="100" value="0"></meter>
             <p id="scoreText">Score: 0</p>
         </div>
 
         <hr>
+
+        <div id="tipContainer" style="background: #f0fdf4; padding: 15px; border-radius: 8px;">
+    <strong>Tip of the day:</strong>
+    <textarea id="dailyTip" style="width: 100%; border: none; background: transparent; resize: none; font-family: inherit; font-size: inherit;" rows="3">Type a habit to get your first tip!</textarea>
+    <button onclick="saveTip()" style="font-size: 12px; margin-top: 5px;">Save Tip</button>
+</div>
 
         <div class="log-container">
             <h3>Your Habit Log 📝</h3>
