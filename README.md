@@ -6,7 +6,7 @@
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Techie]
 
 ### Team Members
 - Member 1: [Arya.r] - [LBS institute of technology for women]
